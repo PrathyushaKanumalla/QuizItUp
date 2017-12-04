@@ -13,208 +13,303 @@ module.exports = {
         'Captain',
         'Winter',
         'Marco Polo',
+        "Summer"
     ],
 	TOPIC_ONE: [
         {
-            'Topic one This is question one Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'In Friends TV Show, What is the middle name of Chandler?': [
+                'Mureal',
+                'Eustace',
+                'Karen',
+                'White',
+                'Francis',
+                'Morgan',
             ],
         },
         {
-            'Topic one This is question two Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'In Friends TV Show, What is the name of Ross son?': [
+                'Ben',
+                'John',
+                'Finn',
+                'Carl',
+                'Ross Junior',
             ],
         },
         {
-            'Topic one This is question three Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'In Friends Show, What is Joey\'s catchphrase?': [
+                'How you doing?',
+	        	'What is up?',
+                'How are you?',
+                'Who\'s there?',
             ],
         },
         {
-            'Topic one This is question four Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'In Friends Show, Who plays Rachel Greene?': [
+                'Jennifer Anniston',
+                'Monica Geller',
+                'Lisa Kudrow',
+                'Courtney Cox',
             ],
         },
         {
-            'Topic one This is question five Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'In Friends series, Chandler hates "this" day?': [
+                'Thanks Giving',
+                'Christmas',
+                'New Year\' Eve',
+                'His Birthday',
             ],
         },
         {
-            'Topic one This is question six Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'In Friends TV Show, Which of the following is not true?': [
+                'Chandler has ten toes',
+                'Ross gets divorced three times',
+                'Phoebe gives birth to a girl chandler',
+                'Rachel likes "Weekend at Barney\'s"',
             ],
         },
         {
-            'Topic one This is question seven Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'What is the name of Phoebe\'s sister?	': [
+                'Ursula',
+                'Rachel',
+                'Alexa',
+                'Cortana',
             ],
         },
         {
-            'Topic one This is question eight Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'Ohhhh!, My!, GAAAAAAAAAAD! Guess the character from FRIENDS TV Show': [
+                'Janice',
+                'Gunther',
+                'Ross',
+                'Joey',
             ],
         },
         {
-            'Topic one This is question nine Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'In Friends, What is Barry\'s profession?': [
+                'Orthodontist',
+                'Sailor',
+                'Gynacologist',
+                'Writer',
             ],
         },
         {
-            'Topic one This is question ten Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'In Friends, Where did Ross, Monica, and Rachel attend high school?': [
+                'Lincoln High',
+                'Roosevelt High',
+                'Long Island',
+                'Chicago High',
             ],
         },
         {
-            'Topic one This is question eleven Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'In Friends, What was Monica\'s nickname when she was a field-hockey goalie?': [
+                'Big Fat Goalie',
+                'Benchwormer mon',
+                'Sac of potatoes',
+                'Monica the beast',
             ],
         },
         {
-            'Topic one This is question twelve Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'In Friends, What is the name of Phoebe\'s brother\'s wife?': [
+                'Alice',
+                'Sara',
+                'Jane',
+                'Lisa',
+            ],
+        },
+        {
+            'In Friends, \"You\'re over me? When were you under me?\" Who said it?': [
+                'Ross',
+                'Rachel',
+                'Chandler',
+                'Carl',
+            ],
+        },
+        {
+            'In Friends, What is Joey\'s Favorite Food?': [
+                'Sandwich',
+                'Burger',
+                'Salad',
+                'Milk',
+            ],
+        },
+        {
+            'In Friends, What type of bed does Monica accidentally get from the Mattress King?': [
+                'Race car Bed',
+                'Water Bed',
+                'Bunk Bed',
+                'Princess Bed',
+            ],
+        },
+        {
+            'In Friends, What did Paolo send Rachel from Italy?': [
+                'Shoes',
+                'A Necklace',
+                'Chocolate',
+                'Lingerie',
+            ],
+        },
+        {
+            'In Friends, Which is not a Phoebe song?': [
+                'My Mom, the cat',
+                'Double-Jointed Boy',
+                'My Mother\'s Ashes',
+                'Terry\'s A Jerk',
+            ],
+        },
+        {
+            'In Friends, What were the names of Monica and Chandler\'s twins?': [
+                'Jack & Erica',
+                'Eric & Julie',
+                'Jason & Ella',
+                'John & Alice',
+            ],
+        },
+        {
+            'In Friends, "If we were in prison, you guys would be like my bitches." Who said it?': [
+                'Phoebe',
+                'Rachel',
+                'Joey',
+                'Ross',
+            ],
+        },
+        {
+            'In Friends, What is the name of Joey\'s childhood imaginary friend': [
+                'Maurice',
+                'Hugsy',
+                'Chewy',
+                'Mario',
+            ],
+        },
+        {
+            'In Friends, Mr. Heckles died in what season?': [
+                'Season 2',
+                'Season 1',
+                'Season 4',
+                'Season 3',
+            ],
+        },
+        {
+            'Who sings the theme song of Friends TV show?': [
+                'The Rembrandts',
+                'No Engine',
+                'The Too too guys',
+                'Snoop Dog',
+            ],
+        },
+        {
+            'In Friends, What is the "giant poking device" made from?': [
+                'Chopsticks',
+                'Pencils',
+                'Straws',
+                'Sticks from a tree',
+            ],
+        },
+        {
+            'In Friends, What word did Rachel misspell on her resume?': [
+                'Computer',
+                'Reliable',
+                'Experience',
+                'Fashion',
+            ],
+        },
+        {
+            'In Friends, How much did each cast member make per episode during the first season?': [
+                '$22,500',                
+                '$50,000',
+                '$100,000',
+                '$65,600',
+            ],
+        },
+        {
+            '"Pi-VOT!! Pi-VOT!!" Who said it?': [
+                'Ross',
+                'Rachel',
+                'Chandler',
+                'Joey',
+            ],
+        },
+        {
+            'In Friends, What does Monica receive from her father?': [
+                'A Porsche',
+                'A Dollhouse',
+                'A pot brownie',
+                'An old trophy',
+                'A Swing',
             ],
         },
     ],
 	TOPIC_TWO: [
         {
-            'Topic two This is question one Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'Who is the president of United States': [
+                'Donald J. Trump',
+                'Barack Obama',
+                'George W. Bush',
+                'Narendra Modi'
             ],
         },
         {
-            'Topic two This is question two Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'Who is the C.E.O of Tesla?': [
+                'Elon Musk',                
+                'Donald Trump',
+                'Larry Ellison',
+                'Tony Stark',
             ],
         },
         {
-            'Topic two This is question three Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'What is the capital of India?': [
+                'New Delhi',
+                'Singapore',
+                'Bangalore',
+                'Beijing',
             ],
         },
         {
-            'Topic two This is question four Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'Grand Central Terminal, Park Avenue, New York is the world\'s': [
+            'largest railway station',
+            'highest railway station',
+            'longest railway station',
+            'None of the above',
+            ]
+        },
+        {
+            'Entomology is the science that studies': [
+                'Insects',
+                'Behavior of human beings',
+                'The formation of rocks',
+                'puzzles',
+                'energy',
+                'stupidity',
             ],
         },
         {
-            'Topic two This is question five Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'For which of the following disciplines is Nobel Prize awarded?': [
+                'All of the above',
+                'Physics',
+                'Chemistry',
+                'Physiology',
+                'Literature',
+                'Peace',
+                'Economics',
+                'Medicine'
             ],
         },
         {
-            'Topic two This is question six Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'Hitler party which came into power in 1933 is known as!': [
+                'Nazi Party',
+                'Labour Party',
+                'Ku-Klux-Klan',
+                'Democratic Party',
+                'Hitler party',
+                'The Crazies',
             ],
         },
         {
-            'Topic two This is question seven Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
-            ],
-        },
-        {
-            'Topic two This is question eight Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'First China War was fought between': [
+                'China and Britain',
+                'China and France',
+                'China and Egypt',
+                'China and Greek',
+                'US and Mexico',
+                'China and India',
             ],
         },
         {
@@ -250,114 +345,276 @@ module.exports = {
     ],
 	TOPIC_THREE: [
         {
-            'Topic three This is question one Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
-            ],
+            "What is the world's most expensive spice by weight?": [
+                "Saffron",
+                "Cinnamon",
+                "Cardamom",
+                "Vanilla"
+            ]
         },
         {
-            'Topic three This is question two Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
-            ],
+            "This field is sometimes known as \"The Dismal Science.\"": [
+                "Economics",
+                "Philosophy",
+                "Politics",
+                "Physics"
+            ]
         },
         {
-            'Topic three This is question three Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
-            ],
+            "What type of dog is 'Handsome Dan', the mascot of Yale University?": [
+                "Bulldog",
+                "Yorkshire Terrier",
+                "Boxer",
+                "Pug"
+            ]
         },
         {
-            'Topic three This is question four Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
-            ],
+            "Which company did Valve cooperate with in the creation of the Vive?": [
+                "HTC",
+                "Oculus",
+                "Google",
+                "Razer"
+            ]
         },
         {
-            'Topic three This is question five Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
-            ],
+            "What is the most common surname Wales?": [
+                "Jones",
+                "Williams",
+                "Davies",
+                "Evans"
+            ]
         },
         {
-            'Topic three This is question six Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
-            ],
+            "Which best selling toy of 1983 caused hysteria, resulting in riots breaking out in stores?": [
+                "Cabbage Patch Kids",
+                "Transformers",
+                "Care Bears",
+                "Rubik\u2019s Cube"
+            ]
         },
         {
-            'Topic three This is question seven Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
-            ],
+            "In the Morse code, which letter is indicated by 3 dots? ": [
+                "S",
+                "O",
+                "A",
+                "C"
+            ]
         },
         {
-            'Topic three This is question eight Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
-            ],
+            "What alcoholic drink is made from molasses?": [
+                "Rum",
+                "Gin",
+                "Vodka",
+                "Whisky"
+            ]
         },
         {
-            'Topic three This is question nine Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
-            ],
+            "Which of the following Ivy League universities has its official motto in Hebrew as well as in Latin?": [
+                "Yale University",
+                "Princeton University",
+                "Harvard University",
+                "Columbia University"
+            ]
         },
         {
-            'Topic three This is question ten Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
-            ],
+            "Which film star has his statue in Leicester Square?": [
+                "Charlie Chaplin",
+                "Paul Newman",
+                "Rowan Atkinson ",
+                "Alfred Hitchcock"
+            ]
         },
         {
-            'Topic three This is question eleven Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
-            ],
+            "What is the unit of currency in Laos?": [
+                "Kip",
+                "Ruble",
+                "Konra",
+                "Dollar"
+            ]
         },
-    ],
+        {
+            "What alcoholic drink is mainly made from juniper berries?": [
+                "Gin",
+                "Vodka",
+                "Rum",
+                "Tequila"
+            ]
+        },
+        {
+            "Which Italian automobile manufacturer gained majority control of U.S. automobile manufacturer Chrysler in 2011?": [
+                "Fiat",
+                "Maserati",
+                "Alfa Romeo",
+                "Ferrari"
+            ]
+        },
+        {
+            "What is the French word for \"hat\"?": [
+                "Chapeau",
+                "Bonnet",
+                " \u00c9charpe",
+                " Casque"
+            ]
+        },
+        {
+            "What is the Italian word for \"tomato\"?": [
+                "Pomodoro",
+                "Aglio",
+                "Cipolla",
+                "Peperoncino"
+            ]
+        },
+        {
+            "What is the romanized Russian word for \"winter\"?": [
+                "Zima",
+                "Leto",
+                "Vesna",
+                "Osen'"
+            ]
+        },
+        {
+            "Disney's Haunted Mansion is home to a trio of Hitchhiking Ghosts. Which of these is NOT one of them?": [
+                "Harry",
+                "Gus",
+                "Phineas",
+                "Ezra"
+            ]
+        },
+        {
+            "What is the last letter of the Greek alphabet?": [
+                "Omega",
+                "Mu",
+                "Epsilon",
+                "Kappa"
+            ]
+        },
+        {
+            "Which one of these is not a typical European sword design?": [
+                "Scimitar",
+                "Falchion",
+                "Ulfberht",
+                "Flamberge"
+            ]
+        },
+        {
+            "The new One World Trade Center in Manhattan, New York City was designed by which architect? ": [
+                "David Childs",
+                "Bjarke Ingels",
+                "Michael Arad",
+                "Fumihiko Maki"
+            ]
+        },
+        {
+            "According to Sherlock Holmes, \"If you eliminate the impossible, whatever remains, however improbable, must be the...\"": [
+                "Truth",
+                "Answer",
+                "Cause",
+                "Source"
+            ]
+        },
+        {
+            "Which one of these Swedish companies was founded in 1943?": [
+                "IKEA",
+                "H & M",
+                "Lindex",
+                "Clas Ohlson"
+            ]
+        },
+        {
+            "Which of the General Mills Corporation's monster cereals was the last to be released in the 1970's?": [
+                "Fruit Brute",
+                "Count Chocula",
+                "Franken Berry",
+                "Boo-Berry"
+            ]
+        },
+        {
+            "Which restaurant's mascot is a clown?": [
+                "McDonald's",
+                "Whataburger",
+                "Burger King",
+                "Sonic"
+            ]
+        },
+        {
+            "Which iconic Disneyland attraction was closed in 2017 to be remodeled as a \"Guardians of the Galaxy\" themed ride?": [
+                "Twilight Zone Tower of Terror",
+                "The Haunted Mansion",
+                "Pirates of the Caribbean",
+                "Peter Pan's Flight"
+            ]
+        },
+        {
+            "What was the soft drink Pepsi originally introduced as?": [
+                "Brad's Drink",
+                "Pepsin Pop",
+                "Carolina Cola",
+                "Pepsin Syrup"
+            ]
+        },
+        {
+            "What was the first ever London Underground line to be built?": [
+                "Metropolitan Line",
+                "Circle Line",
+                "Bakerloo Line",
+                "Victoria Line"
+            ]
+        },
+        {
+            "Which of the following card games revolves around numbers and basic math?": [
+                "Uno",
+                "Go Fish",
+                "Twister",
+                "Munchkin"
+            ]
+        },
+        {
+            "What was Bank of America originally established as?": [
+                "Bank of Italy",
+                "Bank of Long Island",
+                "Bank of Pennsylvania",
+                "Bank of Charlotte"
+            ]
+        },
+        {
+            "What does the Latin phrase \"Veni, vidi, vici\" translate into English?": [
+                "I came, I saw, I conquered",
+                "See no evil, hear no evil, speak no evil",
+                "Life, liberty, and happiness",
+                "Past, present, and future"
+            ]
+        },
+        {
+            "Apple co-founder Steve Jobs died from complications of which form of cancer?": [
+                "Pancreatic",
+                "Bone",
+                "Liver",
+                "Stomach"
+            ]
+        },
+        {
+            "Virtual reality company Oculus VR lost which of it's co-founders in a freak car accident in 2013?": [
+                "Andrew Scott Reisse",
+                "Nate Mitchell",
+                "Jack McCauley",
+                "Palmer Luckey"
+            ]
+        },
+        {
+            "Who founded the Khan Academy?": [
+                "Sal Khan",
+                "Ben Khan",
+                "Kitt Khan",
+                "Adel Khan"
+            ]
+        },
+        {
+            "Which sign of the zodiac comes between Virgo and Scorpio?": [
+                "Libra",
+                "Gemini",
+                "Taurus",
+                "Capricorn"
+            ]
+        }
+    ]
 };
