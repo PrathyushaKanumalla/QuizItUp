@@ -18,7 +18,7 @@ const questions = require('./questionnaire');
 const ANSWER_COUNT = 4; // The number of possible answers per trivia question.
 let GAME_LENGTH = 3;  // The number of questions per trivia game.
 let PLAYER_MAX_COUNT = 5;
-let TOPIC_MAX_COUNT = 3;
+let TOPIC_MAX_COUNT = 4;
 let PLAYER_COUNT = 0;
 let TOPIC_INDEX = 0;
 let PLAYER_SCORES = [];
@@ -37,14 +37,17 @@ const APP_ID = undefined; // TODO replace with your app ID (OPTIONAL)
 const languageString = {
     'en': {
         'translation': {
-            'TOPICS': ['Friends TV Show ', 'Simple Questions ', 'General Knowledge '],
+            'TOPICS': ['Friends TV Show ', 'History ', 'General Knowledge ', 'Simple Questions ' ],
             'TOPICONE': questions['TOPIC_ONE'],
             'TOPICTWO': questions['TOPIC_TWO'],
             'TOPICTHREE': questions['TOPIC_THREE'],
+            'TOPICFOUR': questions['TOPIC_FOUR'],
 			'PLAYER_NAMES': questions['PLAYER_NAMES'],
-            'GAME_NAME': 'Quiz It Up topic version', // Be sure to change this for your skill.
+            'GAME_NAME': 'Quiz It Up - The Trivia Game', // Be sure to change this for your skill.
             'HELP_MESSAGE': 'I will ask you %s multiple choice questions. Respond with the number of the answer. ' +
-                'For example, say one, two, three, or four. To start a new game at any time, say, start game. ',
+                'To start a new game at any time, say, start game. You can always ask me to repeat ,or score ,or help.',
+            'HELP_MESSAGE_MULTI': 'I will ask you %s multiple choice questions. Respond with the number of the answer. ' +
+                'To start a new game at any time, say, start game. You can always ask me to repeat ,or score ,or help. ',
             'REPEAT_QUESTION_MESSAGE': 'To repeat the last question, say, repeat. ',
             'ASK_MESSAGE_START': 'Would you like to start playing?',
             'HELP_REPROMPT': 'To give an answer to a question, respond with the number of the answer. ',
@@ -54,9 +57,9 @@ const languageString = {
             'TRIVIA_UNHANDLED': 'Try saying a number between 1 and %s ',
             'HELP_UNHANDLED': 'Say yes to continue, or no to end the game.',
             'START_UNHANDLED': 'Say start to start a new game.',
-            'NEW_GAME_MESSAGE': 'Welcome to %s. ',
+            'NEW_GAME_MESSAGE': 'Welcome to %s, Let\'s get started, ask me for help anytime. ',
             'WELCOME_MESSAGE': 'I will ask you %s questions, try to get as many right as you can. ' +
-            'Just say the number of the answer.',
+            'Just say the number of the answer. ',
             'ANSWER_CORRECT_MESSAGE': 'correct. ',
             'ANSWER_WRONG_MESSAGE': 'wrong. ',
             'CORRECT_ANSWER_MESSAGE': 'The correct answer is %s: %s. ',
@@ -65,22 +68,26 @@ const languageString = {
             'PLAYER_QUESTION_MESSAGE': '%s, Question %s. %s ',
             'GAME_OVER_MESSAGE': 'You got %s out of %s questions correct. Thank you for playing!',
             'SCORE_IS_MESSAGE': 'Your score is %s. ',
-            'SET_PLAYER_MESSAGES': ['Got any Friends to play along? ', 'Got Friends with you to compete? ', 'Competing with someone? '],
+            'SET_PLAYER_MESSAGES': [' Got any Friends to play along? ', ' Got Friends with you to compete? ', ' Competing with someone? '],
             'SET_PLAYER_MESSAGE': 'I can take up to five players. How many players do you have?',
-            'PLAYER_COUNT_IS_MESSAGE': ' Done, %s players on %s topic ',
-            'SINGLE_PLAYER_GAME': 'Going solo on %s ',
-            'BEGIN_GAME': [' Off to the game now. ', 'Let\'s begin. ', 'Let\'s get going. '],
-            'WIN_ANNOUNCE': 'And the winner is %s with a score of %s ',
-            'TIE_ANNOUNCE': 'Oh, no! it\'s a tie!! ',
+            'PLAYER_COUNT_IS_MESSAGE': ' Done, %s players and Topic: %s . <break time="1s"/>',
+            'SINGLE_PLAYER_GAME': 'Going solo on %s <break time="1s"/> ',
+            'BEGIN_GAME': [' Off to the game now. ', 'Let\'s begin. It\'s gonna get rough. ', 'Get Ready, i\'ve some good questions coming up. '],
+            'WIN_ANNOUNCE': 'And the winner is %s with a score of %s! !! ',
+            'TIE_ANNOUNCE': 'Oh, no! it\'s a tie!! I don\'t have a tie breaker yet in this version. ',
             'SAY_PLAYER_NAME': ' Now player %s, Let me just call you %s. ',
+            'SCORE_GREET': [" ", ' Good Job. ', 'Wow! you\'re on fire, two in a row. ', 'Awesome! You\'ve got all three right. Let\'s see if any one can make it.'],
             'PLAYER_COUNT_SELECTED': ' %s player game it is. ',
-			'TOPIC_SELECTION_MESSAGE': ' Say one for FRIENDS TV Show, two for Simple Questions, three for General Knowledge ',
-			'INVALID_ANSWER_SLOT': 'Sorry I didn\'t get you, Let me repeat the question ',
+			'TOPIC_SELECTION_MESSAGE': ' Say one for FRIENDS TV Show, two for History, three for General Knowledge, four for Simple Questions ',
+			'INVALID_ANSWER_SLOT': ['Sorry I didn\'t get you, Let me repeat the question. <break time="1s"/> ', 
+			                        'Sorry i didn\'t quite get that, looks like it\'s a tricky one! Try the number of answer instead of the answer! ', 
+			                        'Sorry i\'m a bit slow, let me just get the option for this question again! <break time="1s"/>',
+			                        'Better the option than the long answer! The question again. '],
 			//AUDIO CLIPS
-            'AUDIO_NEWGAME_MESSAGE': '<audio src="https://ocoderjava8.000webhostapp.com/audio_clips/drumroll.mp3"/> Welcome to %s ',
-            'AUDIO_RIGHT_ANSWER': '<audio src="https://ocoderjava8.000webhostapp.com/audio_clips/applause.mp3"/> Awesome! ',
-            'AUDIO_WRONG_ANSWER': '<audio src="https://ocoderjava8.000webhostapp.com/audio_clips/boo.mp3"/> Ouch! ',
-            'AUDIO_CONGRATS': '<audio src="https://ocoderjava8.000webhostapp.com/audio_clips/cheers.mp3"/> ',
+            'AUDIO_NEWGAME_MESSAGE': '<audio src="https://ocoderjava8.000webhostapp.com/audio_clips/drumroll.mp3"/>',
+            'AUDIO_RIGHT_ANSWER': 'correct. <audio src="https://ocoderjava8.000webhostapp.com/audio_clips/applause.mp3"/>',
+            'AUDIO_WRONG_ANSWER': 'wrong. <audio src="https://ocoderjava8.000webhostapp.com/audio_clips/boo.mp3"/> Ouch! ',
+            'AUDIO_CONGRATS': 'That\'s a good game <audio src="https://ocoderjava8.000webhostapp.com/audio_clips/cheer.mp3"/>. Thanks for Playing. ',
         },
     }
 };
@@ -110,7 +117,7 @@ function populateGameQuestions(translatedQuestions) {
     let index = translatedQuestions.length;
 
     if (GAME_LENGTH > index) {
-        throw new Error('Invalid Game Length.');
+        throw new Error('Invalid Game Length.' + GAME_LENGTH + " > " + index);
     }
 
     for (let i = 0; i < translatedQuestions.length; i++) {
@@ -138,11 +145,11 @@ function populateGameQuestions(translatedQuestions) {
  * */
 function populateRoundAnswers(gameQuestionIndexes, correctAnswerIndex, correctAnswerTargetLocation, translatedQuestions) {
     const answers = [];
-    const answersCopy = translatedQuestions[gameQuestionIndexes[correctAnswerIndex]][Object.keys(translatedQuestions[gameQuestionIndexes[correctAnswerIndex]])[0]].slice();
+    let answersCopy = translatedQuestions[gameQuestionIndexes[correctAnswerIndex]][Object.keys(translatedQuestions[gameQuestionIndexes[correctAnswerIndex]])[0]].slice();
     let index = answersCopy.length;
 
     if (index < ANSWER_COUNT) {
-        throw new Error('Not enough answers for question.');
+        throw new Error('Not enough answers for question. ' + answersCopy);
     }
 
     // Shuffle the answers, excluding the first element which is the correct answer.
@@ -198,13 +205,25 @@ function initScores(){
 }
 
 function winningPlayer(){
-    var maxScore  = Math.max.apply(Math, PLAYER_SCORES)
+    var maxScore  = Math.max.apply(Math, PLAYER_SCORES);
     if (PLAYER_SCORES.indexOf(maxScore) == PLAYER_SCORES.lastIndexOf(maxScore)) {
         return PLAYER_SCORES.indexOf(maxScore);
     } else {
         return -1;
     }
 }
+
+function validTopic(topics, Answer){
+    topics = ['Friends TV Show', 'History', 'General Knowledge', 'Simple Questions' ];
+    for(var i= 0; i<4;i++){
+        console.log(topics[i] + "<>" + Answer);
+        if(topics[i].toLowerCase().includes(Answer.toLowerCase())){
+            return i+1;
+        }
+    }
+    return -1;
+}
+
 function handleUserGuess(userGaveUp) {
     const answerSlotValid = isAnswerSlotValid(this.event.request.intent, ANSWER_COUNT+1);
     let speechOutput = '';
@@ -221,21 +240,31 @@ function handleUserGuess(userGaveUp) {
 		translatedQuestions = this.t('TOPICTWO');
 	} else if (TOPIC_INDEX == 3) {
 		translatedQuestions = this.t('TOPICTHREE');
+	} else if (TOPIC_INDEX == 4){
+	    translatedQuestions = this.t('TOPICFOUR');
 	}
     const answerTextSlotValid = isAnswerTextSlotValid(this.event.request.intent);
     //const isPartialAnswer = ;
     let playerIndex = ((PLAYER_COUNT+currentQuestionIndex)%PLAYER_COUNT);
     
-    if ((answerSlotValid && parseInt(this.event.request.intent.slots.Answer.value, 10) === this.attributes['correctAnswerIndex']) || (answerTextSlotValid && 
-    correctAnswerText.toLowerCase().includes(this.event.request.intent.slots.AnswerText.value.toLowerCase()))) {
+    if ((answerSlotValid && parseInt(this.event.request.intent.slots.Answer.value, 10) === this.attributes['correctAnswerIndex']) || (answerTextSlotValid &&( 
+    correctAnswerText.toLowerCase().includes(this.event.request.intent.slots.AnswerText.value.toLowerCase()) || this.event.request.intent.slots.AnswerText.value.toLowerCase().includes(correctAnswerText.toLowerCase())  ) )) {
         //currentScore++;
         PLAYER_SCORES[playerIndex] += 1;
-        speechOutputAnalysis = this.t('ANSWER_CORRECT_MESSAGE');
+        if(randomIndex(2) == 1){
+            speechOutputAnalysis = this.t('ANSWER_CORRECT_MESSAGE') + this.t('SCORE_GREET')[PLAYER_SCORES[playerIndex]];
+        }else{
+            speechOutputAnalysis = this.t('AUDIO_RIGHT_ANSWER');
+        }
     } else {
-        if (!answerSlotValid && !userGaveUp) {
+        if (!answerSlotValid && !answerTextSlotValid && !userGaveUp) {
             this.emitWithState('InvalidAnswerIntent');
         } else if (!userGaveUp) {
-            speechOutputAnalysis = this.t('ANSWER_WRONG_MESSAGE');
+            if(randomIndex(3) == 1){
+                speechOutputAnalysis = this.t('AUDIO_WRONG_ANSWER');
+            }else{
+                speechOutputAnalysis = this.t('ANSWER_WRONG_MESSAGE');
+            }
         }
         speechOutputAnalysis += this.t('CORRECT_ANSWER_MESSAGE', correctAnswerIndex, correctAnswerText);
     }
@@ -251,19 +280,21 @@ function handleUserGuess(userGaveUp) {
         } else {
             var winningPlayerIndex = winningPlayer();
              if (winningPlayerIndex != -1) {
-                 speechOutput += this.t('WIN_ANNOUNCE', 'Player '+ PLAYER_ALIAS[winningPlayerIndex].toString(), PLAYER_SCORES[winningPlayerIndex]);
+                 speechOutput += this.t('WIN_ANNOUNCE', PLAYER_ALIAS[winningPlayerIndex].toString(), PLAYER_SCORES[winningPlayerIndex]);
+                 speechOutput += this.t('AUDIO_CONGRATS');
              } else {
                  speechOutput += this.t('TIE_ANNOUNCE');
              }
         }
 		//this.emit(':tell', speechOutput);
-		speechOutput += 'Do you want to continue ?';
+		speechOutput += 'Do you want to play another game ?';
 		//can ask if the user wants to continue
 		this.emit(':ask', speechOutput, this.attributes['repromptText']);
     } else {
         currentQuestionIndex += 1;
         let currPlayerIndex = ((PLAYER_COUNT+currentQuestionIndex)%PLAYER_COUNT);
         correctAnswerIndex = Math.floor(Math.random() * (ANSWER_COUNT));
+        console.log(currentQuestionIndex + " < currentQuestionIndex, gameQuestions" + gameQuestions + " Speech" + speechOutput);
         const spokenQuestion = Object.keys(translatedQuestions[gameQuestions[currentQuestionIndex]])[0];
         const roundAnswers = populateRoundAnswers.call(this, gameQuestions, currentQuestionIndex, correctAnswerIndex, translatedQuestions);
         const questionIndexForSpeech = Math.floor(currentQuestionIndex/PLAYER_COUNT)+1;//currentQuestionIndex + 1;
@@ -281,8 +312,8 @@ function handleUserGuess(userGaveUp) {
         }
 
         speechOutput += userGaveUp ? '' : this.t('ANSWER_IS_MESSAGE');
-        speechOutput += speechOutputAnalysis + this.t('SCORE_IS_MESSAGE', PLAYER_SCORES[playerIndex].toString()) + repromptText; //J replacing currentScore -> PLAYER_SCORES[playerIndex]
-
+        speechOutput += speechOutputAnalysis + this.t('SCORE_IS_MESSAGE', PLAYER_SCORES[playerIndex].toString()); //J replacing currentScore -> PLAYER_SCORES[playerIndex]
+        speechOutput += repromptText;
         Object.assign(this.attributes, {
             'speechOutput': repromptText,
             'repromptText': repromptText,
@@ -301,8 +332,8 @@ const startStateHandlers = Alexa.CreateStateHandler(GAME_STATES.START, {
         let speechOutput = newGame ? this.t('NEW_GAME_MESSAGE', this.t('GAME_NAME')) : '';
         
         //J If player count is not init value then prompt the message
-		let topicMessage = 'Random';
-		if (TOPIC_INDEX == 1 || TOPIC_INDEX == 2 ||  TOPIC_INDEX == 3) {
+		var topicMessage = 'Friends TV show';
+		if (TOPIC_INDEX == 1 || TOPIC_INDEX == 2 ||  TOPIC_INDEX == 3 || TOPIC_INDEX == 4) {
 			topicMessage = this.t('TOPICS')[TOPIC_INDEX - 1];
 		}
         initScores();
@@ -333,6 +364,8 @@ const startStateHandlers = Alexa.CreateStateHandler(GAME_STATES.START, {
 		    translatedQuestions = this.t('TOPICTWO');
 		} else if (TOPIC_INDEX == 3) {
 		    translatedQuestions = this.t('TOPICTHREE');
+		}else{
+		    translatedQuestions = this.t('TOPICFOUR');
 		}
         const gameQuestions = populateGameQuestions(translatedQuestions);
         // Generate a random index for the correct answer, from 0 to 3
@@ -344,7 +377,7 @@ const startStateHandlers = Alexa.CreateStateHandler(GAME_STATES.START, {
         let repromptText = this.t('TELL_QUESTION_MESSAGE', '1', spokenQuestion);
 
         for (let i = 0; i < ANSWER_COUNT; i++) {
-            repromptText += `${i + 1}. ${roundAnswers[i]}. `;
+            repromptText += ` ${i + 1}. ${roundAnswers[i]}. `;
         }
 
         speechOutput += repromptText;
@@ -368,14 +401,14 @@ const startStateHandlers = Alexa.CreateStateHandler(GAME_STATES.START, {
         PLAYER_COUNT = 0;
         TOPIC_INDEX = 0;
         GAME_LENGTH = 3;
-        let speechOutput = newGame ? this.t('NEW_GAME_MESSAGE', this.t('GAME_NAME')) : this.t('WELCOME_MESSAGE', GAME_LENGTH.toString());
+        let speechOutput = newGame ? this.t('NEW_GAME_MESSAGE', this.t('GAME_NAME')+ this.t('AUDIO_NEWGAME_MESSAGE')) : this.t('WELCOME_MESSAGE', GAME_LENGTH.toString());
         let setPlayerMsgIndex = randomIndex(3);
-        speechOutput += this.t('SET_PLAYER_MESSAGES')[setPlayerMsgIndex];
+        let repromptText = this.t('SET_PLAYER_MESSAGES')[setPlayerMsgIndex];
         Object.assign(this.attributes, {
-            'speechOutput': speechOutput,
-            'repromptText': speechOutput,
+            'speechOutput': speechOutput + repromptText,
+            'repromptText': repromptText,
         });
-        this.emit(':ask', speechOutput, speechOutput);
+        this.emit(':ask', speechOutput + repromptText, repromptText);
     },
     'TopicSelection': function(newGame){
         let playersSelected = this.t('PLAYER_COUNT_SELECTED', PLAYER_COUNT);
@@ -396,25 +429,34 @@ const startStateHandlers = Alexa.CreateStateHandler(GAME_STATES.START, {
                 });
                 this.emitWithState('InvalidAnswerIntent');
             } else {
+                // Setting player count..
         		PLAYER_COUNT = parseInt(this.event.request.intent.slots.Answer.value, 10);
     		    PLAYER_ALIAS = shufflePlayerNames(this.t('PLAYER_NAMES'));
         		this.emitWithState('TopicSelection', true);
             }
 		} else {
     		let validAnswer = isAnswerSlotValid(this.event.request.intent, TOPIC_MAX_COUNT+1);
-    		if (!validAnswer) {
+    		// Setting Topic 
+    		let validAnswerText = isAnswerTextSlotValid(this.event.request.intent);
+    		console.log("ValidAnswer" + validAnswer +",ValidText:" + validAnswerText);
+    		if (!validAnswer && !validAnswerText) {
     		    Object.assign(this.attributes, {
                     'speechOutput': this.attributes.speechOutput,
                     'repromptText': this.attributes.speechOutput,
                 });
                 this.emitWithState('InvalidAnswerIntent');
+            }else{
+                if(validAnswer){
+                    TOPIC_INDEX = parseInt(this.event.request.intent.slots.Answer.value, 10);
+                }else{
+                    TOPIC_INDEX = validTopic(this.t['TOPICS'], this.event.request.intent.slots.AnswerText.value);
+                }
             }
-    		TOPIC_INDEX = parseInt(this.event.request.intent.slots.Answer.value, 10);
     		this.emitWithState('StartGame', false);
 		}
     },
     'InvalidAnswerIntent': function() {
-        this.emit(':ask', this.t('INVALID_ANSWER_SLOT') + this.attributes['speechOutput'], this.attributes['repromptText']);
+        this.emit(':ask', this.t('INVALID_ANSWER_SLOT')[randomIndex(3)] + this.attributes['speechOutput'], this.attributes['repromptText']);
     },
     'AMAZON.YesIntent': function() {
         if (PLAYER_COUNT == 0) {
@@ -437,6 +479,8 @@ const startStateHandlers = Alexa.CreateStateHandler(GAME_STATES.START, {
         if (PLAYER_COUNT === 0) {
             PLAYER_COUNT = 1;
             this.emitWithState('TopicSelection', false);
+        }else{
+            this.emitWithState('InvalidAnswerIntent');
         }
     },
     'AMAZON.StopIntent': function () {
@@ -449,11 +493,22 @@ const startStateHandlers = Alexa.CreateStateHandler(GAME_STATES.START, {
         this.emitWithState('helpTheUser', false);
     },
     'AMAZON.RepeatIntent': function () {
-        this.emit(':ask', this.attributes['speechOutput'], this.attributes['repromptText']);
+        if(this.attributes['repromptText'] != null){
+            this.emit(':ask', this.attributes['repromptText'], this.attributes['repromptText']);
+        }
+        else{
+            this.emit(':ask', this.attributes['speechOutput'], this.attributes['repromptText']);
+        }
     },
     'DontKnowIntent': function () {
         this.emit(':ask', this.attributes['speechOutput'], this.attributes['repromptText']);
     },
+    'AMAZON.CancelIntent': function () {
+        this.emit(':tell', this.t('CANCEL_MESSAGE'));
+    },
+    'Unhandled': function(){
+        this.emitWithState('InvalidAnswerIntent');
+    }
 });
 
 const triviaStateHandlers = Alexa.CreateStateHandler(GAME_STATES.TRIVIA, {
@@ -468,7 +523,7 @@ const triviaStateHandlers = Alexa.CreateStateHandler(GAME_STATES.TRIVIA, {
         handleUserGuess.call(this, true);
     },
     'InvalidAnswerIntent': function() {
-        this.emit(':ask', this.t('INVALID_ANSWER_SLOT') + this.attributes['speechOutput'], this.attributes['repromptText']);
+        this.emit(':ask', this.t('INVALID_ANSWER_SLOT')[randomIndex(3)] + this.attributes['speechOutput'], this.attributes['repromptText']);
     },
     'AMAZON.HelpIntent': function () {
         this.handler.state = GAME_STATES.HELP;
@@ -507,12 +562,18 @@ const triviaStateHandlers = Alexa.CreateStateHandler(GAME_STATES.TRIVIA, {
     'AnswerIntent': function () {
         handleUserGuess.call(this, false);
     },
+    
 });
 
 const helpStateHandlers = Alexa.CreateStateHandler(GAME_STATES.HELP, {
     'helpTheUser': function (newGame) {
         const askMessage = newGame ? this.t('ASK_MESSAGE_START') : this.t('REPEAT_QUESTION_MESSAGE') + this.t('STOP_MESSAGE');
-        const speechOutput = this.t('HELP_MESSAGE', GAME_LENGTH) + askMessage;
+        const speechOutput = "";
+        if(PLAYER_COUNT!=0 && PLAYER_COUNT!=1){
+            speechOutput = this.t('HELP_MESSAGE_MULTI', GAME_LENGTH/PLAYER_COUNT) + askMessage;
+        }else{
+            speechOutput = this.t('HELP_MESSAGE', GAME_LENGTH) + askMessage;
+        }
         const repromptText = this.t('HELP_REPROMPT') + askMessage;
         this.emit(':ask', speechOutput, repromptText);
     },
