@@ -12,8 +12,13 @@ module.exports = {
         'Paris',
         'Captain',
         'Winter',
-        'Marco Polo',
-        "Summer"
+        'Viking',
+        "Summer",
+        "Coconut",
+        "Snow",
+        "Lollipop",
+        "Whisper",
+        "Pixel"
     ],
 	TOPIC_ONE: [
         {
@@ -52,7 +57,7 @@ module.exports = {
             ],
         },
         {
-            'In Friends series, Chandler hates "this" day?': [
+            'In Friends series, Chandler hates "this" day.': [
                 'Thanks Giving',
                 'Christmas',
                 'New Year\' Eve',
@@ -180,11 +185,12 @@ module.exports = {
             ],
         },
         {
-            'In Friends, Mr. Heckles died in what season?': [
-                'Season 2',
+            'In Friends, Which season did rachel ran away from alter?': [
                 'Season 1',
+                'Season 2',
                 'Season 4',
                 'Season 3',
+                'Season 5'
             ],
         },
         {
@@ -237,7 +243,7 @@ module.exports = {
             ],
         },
     ],
-	TOPIC_TWO: [
+	TOPIC_FOUR: [
         {
             'Who is the president of United States': [
                 'Donald J. Trump',
@@ -247,7 +253,7 @@ module.exports = {
             ],
         },
         {
-            'Who is the C.E.O of Tesla?': [
+            'Who is the CEO of Tesla?': [
                 'Elon Musk',                
                 'Donald Trump',
                 'Larry Ellison',
@@ -263,11 +269,11 @@ module.exports = {
             ],
         },
         {
-            'Grand Central Terminal, Park Avenue, New York is the world\'s': [
-            'largest railway station',
-            'highest railway station',
-            'longest railway station',
-            'None of the above',
+            '\"Grand Central Terminal Park Avenue, New York\" is the world\'s what<break time="1s"/>': [
+                'largest railway station',
+                'highest railway station',
+                'longest railway station',
+                'smallest railway station',
             ]
         },
         {
@@ -282,7 +288,7 @@ module.exports = {
         },
         {
             'For which of the following disciplines is Nobel Prize awarded?': [
-                'All of the above',
+                'All of these',
                 'Physics',
                 'Chemistry',
                 'Physiology',
@@ -313,35 +319,338 @@ module.exports = {
             ],
         },
         {
-            'Topic two This is question nine Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'Which is the most popular search engine?': [
+                'Google',
+                'Bing!',
+                'Facebook',
+                'Duck Duck Go',
+                'Yahoo',
+                'Twitter',
+            ],
+        },
+         {
+            'Which tech company is headed by mark zuckerberg?': [
+                'Facebook',
+                'Bing!',
+                'Google',
+                'Microsoft',
+                'Twitter',
             ],
         },
         {
-            'Topic two This is question ten Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'Politician with second most followers in twitter.': [
+                'Narendra Modi',
+                'George Washington',
+                'Barack Obama',
+                'Tony stark',
             ],
         },
         {
-            'Topic two This is question eleven Answer is?': [
-                'book',
-                'option one',
-                'option two',
-                'option three',
-                'option four',
-                'option five',
+            'Second book in \"Harry potter\" series?': [
+                'Chamber of secrets',
+                'Deathly Hallows',
+                'Prisoner of azkaban',
+                'Harry met sally',
+                'Half blood prince',
+                'Winter is here',
             ],
         },
+           {
+            'Name of the Harry Potter series book in released in 1999, "Harry potter and "': [
+                'Prisoner of azkaban',
+                'Deathly Hallows',
+                'Harry met sally',
+                'Half blood prince',
+                'Winter is here',
+            ],
+        },
+        {
+            'In Game of Throne, Who is the king in the North': [
+                'Jon snow',
+                'Joffrey',
+                'Litte Finger',
+                'Sansa Stark',
+                'Robert',
+            ],
+        },
+        {
+            'Only Friends character, who won an Emmy Award?': [
+                'Phoebe',
+                'Chandler',
+                'Monica',
+                'Ross',
+            ],
+        },
+        {
+            'One of these politicians won a Nobel Price!': [
+                'Barack Obama',
+                'Donald Trump',
+                'George Bush',
+                "George Washington",
+            ],
+        },
+        {
+            "Anonymous Search Engine!": [
+                "Duck Duck Go",
+                "Google",
+                'Twitter',
+                'Yahoo',
+            ]
+        },
+        {
+            "Who was the first president of the United States?": [
+                "George Washington",
+                "James Madison",
+                'Donald Trump',
+                'Barack Obama',
+                "James Polk"
+            ]
+        },
+        {
+            "Which of the below has an IMDB rating of 9.5?": [
+                "Breaking Bad TV Series",
+                "Avengers Movie",
+                'Avatar Movie',
+                'Game of Thrones',
+                "Iron Man 2"
+            ]
+        },
+        {
+            "Which Character is famous for the nickname \'Heisenberg\'?": [
+                "Walter White",
+                "Tony Stark",
+                'Ross',
+                'Donal Trump',
+                "Phoebe"
+            ]
+        }
+        
+    ],
+    TOPIC_TWO: [
+        {
+            "Which one of these was not a beach landing site in the Invasion of Normandy?": [
+                "Silver",
+                "Gold",
+                "Juno",
+                "Sword"
+            ]
+        },
+        {
+            "King Henry VIII was the second monarch of which European royal house?": [
+                "Tudor",
+                "York",
+                "Stuart",
+                "Lancaster"
+            ]
+        },
+        {
+            "What was William Frederick Cody better known as?": [
+                "Buffalo Bill",
+                "Billy the Kid",
+                "Wild Bill Hickok",
+                "Pawnee Bill"
+            ]
+        },
+        {
+            "In the year 1900, what were the most popular first names given to boy and girl babies born in the United States?": [
+                "John and Mary",
+                "Joseph and Catherine",
+                "William and Elizabeth",
+                "George and Anne"
+            ]
+        },
+        {
+            "This is an American epic space opera media franchise": [
+                "Star Wars",
+                "Jaws",
+                "Blade Runner",
+                "Alien"
+            ]
+        },
+        {
+            "What was the name of the spy ring that helped the United States win the Revolutionary War?": [
+                "Culper Ring",
+                "New York Spy Ring",
+                "Washington's Spies",
+                "Unnamed"
+            ]
+        },
+        {
+            "During WWII, in 1945, the United States dropped atomic bombs on the two Japanese cities of Hiroshima and what other city?": [
+                "Nagasaki",
+                "Kawasaki",
+                "Tokyo",
+                "Kagoshima"
+            ]
+        },
+        {
+            "Which of the following ancient Near Eastern peoples still exists as a modern ethnic group?": [
+                "Assyrians",
+                "Babylonians",
+                "Hittites",
+                "Elamites"
+            ]
+        },
+        {
+            "Which of the following battles is often considered as marking the beginning of the fall of the Western Roman Empire?": [
+                "Battle of Adrianople",
+                "Battle of Thessalonica",
+                "Battle of Pollentia",
+                "Battle of Constantinople"
+            ]
+        },
+        {
+            "Which of the following Assyrian kings did NOT rule during the Neo-Assyrian Empire?": [
+                "Shamshi-Adad III",
+                "Shalmaneser V",
+                "Esharhaddon",
+                "Ashur-nasir-pal II"
+            ]
+        },
+        {
+            "Which infamous European traitor was known as \"the last person to enter Parliament with honest intentions\"?": [
+                "Guy Fawkes",
+                "Robert Catesby",
+                "Francis Tresham",
+                "Everard Digby"
+            ]
+        },
+        {
+            "The creator of the Enigma Cypher and Machine was of what nationality?": [
+                "German",
+                "American",
+                "British",
+                "Polish"
+            ]
+        },
+        {
+            "Which of these countries remained neutral during World War II?": [
+                "Switzerland",
+                "United Kingdom",
+                "France",
+                "Italy"
+            ]
+        },
+        {
+            "Which of these countries was NOT a part of the Soviet Union?": [
+                "Afghanistan",
+                "Turkmenistan",
+                "Kazakhstan",
+                "Uzbekistan"
+            ]
+        },
+        {
+            "What is the name of the US Navy spy ship which was attacked and captured by North Korean forces in 1968?": [
+                "USS Pueblo",
+                "USS North Carolina",
+                "USS Constitution",
+                "USS Indianapolis"
+            ]
+        },
+        {
+            "During the Wars of the Roses (1455 - 1487) which Englishman was dubbed \"the Kingmaker\"?": [
+                "Richard Neville",
+                "Richard III",
+                "Henry V",
+                "Thomas Warwick"
+            ]
+        },
+        {
+            "When did the Battle of the Somme begin?": [
+                "July 1st, 1916",
+                "August 1st, 1916",
+                "July 2nd, 1916",
+                "June 30th, 1916"
+            ]
+        },
+        {
+            "Bohdan Khmelnytsky was which of the following?": [
+                "Leader of the Ukrainian Cossacks",
+                "General Secretary of the Communist Party of the USSR",
+                "Prince of Wallachia",
+                "Grand Prince of Novgorod"
+            ]
+        },
+        {
+            "Who was the first president of the United States?": [
+                "George Washington",
+                "James Madison",
+                "Thomas Jefferson",
+                "James K. Polk"
+            ]
+        },
+        {
+            "Where and when was the first cardboard box made for industrial use?": [
+                "England",
+                "United States",
+                "France",
+                "Germany"
+            ]
+        },
+        {
+            "How many times was Albert Einstein married in his lifetime?": [
+                "Twice",
+                "Five",
+                "Thrice",
+                "Once"
+            ]
+        },
+        {
+            "The Second Boer War in 1899 was fought where?": [
+                "South Africa",
+                "Argentina",
+                "Nepal",
+                "Bulgaria"
+            ]
+        },
+        {
+            "What was the transfer of disease, crops, and people across the Atlantic shortly after the discovery of the Americas called?": [
+                "The Columbian Exchange",
+                "Triangle Trade",
+                "Transatlantic Slave Trade",
+                "The Silk Road"
+            ]
+        },
+        {
+            "What was found in 1946 by two young shepards near a cave?": [
+                "Dead Sea Scrolls",
+                "The Blackbeard Chest",
+                "Sheep",
+                "The First Oaxaca Cave Sleeper"
+            ]
+        },
+        {
+            "Who was the President of the United States during the signing of the Gadsden Purchase?": [
+                "Franklin Pierce",
+                "Andrew Johnson",
+                "Abraham Lincoln",
+                "James Polk"
+            ]
+        },
+        {
+            "Which Las Vegas casino was originally constructed and operated by mobster Bugsy Siegel?": [
+                "The Flamingo",
+                "The MGM Grand",
+                "The Sands",
+                "The Sahara"
+            ]
+        },
+        {
+            "The \"Trail of Tears\" was a result of which United States President's Indian Removal Policy?": [
+                "Andrew Jackson",
+                "Harry S. Truman",
+                "Martin Van Buren",
+                "John Quincy Adams"
+            ]
+        },
+        {
+            "Who was among those killed in the 2010 Smolensk, Russia plane crash tragedy?": [
+                "The Polish President",
+                "Pope John Paul II",
+                "Bang-Ding Ow",
+                "Albert Putin"
+            ]
+        }
     ],
 	TOPIC_THREE: [
         {
@@ -353,7 +662,7 @@ module.exports = {
             ]
         },
         {
-            "This field is sometimes known as \"The Dismal Science.\"": [
+            "This field is sometimes known as 'The Dismal Science.'": [
                 "Economics",
                 "Philosophy",
                 "Politics",
@@ -393,8 +702,8 @@ module.exports = {
             ]
         },
         {
-            "In the Morse code, which letter is indicated by 3 dots? ": [
-                "S",
+            "In the Morse code, which letter is indicated by 2 dots? ": [
+                "I",
                 "O",
                 "A",
                 "C"
@@ -505,7 +814,7 @@ module.exports = {
             ]
         },
         {
-            "According to Sherlock Holmes, \"If you eliminate the impossible, whatever remains, however improbable, must be the...\"": [
+            "According to Sherlock Holmes, \"If you eliminate the impossible, whatever remains, however improbable, must be the\"": [
                 "Truth",
                 "Answer",
                 "Cause",
@@ -530,7 +839,7 @@ module.exports = {
         },
         {
             "Which restaurant's mascot is a clown?": [
-                "McDonald's",
+                "McDonalds",
                 "Whataburger",
                 "Burger King",
                 "Sonic"
@@ -577,14 +886,6 @@ module.exports = {
             ]
         },
         {
-            "What does the Latin phrase \"Veni, vidi, vici\" translate into English?": [
-                "I came, I saw, I conquered",
-                "See no evil, hear no evil, speak no evil",
-                "Life, liberty, and happiness",
-                "Past, present, and future"
-            ]
-        },
-        {
             "Apple co-founder Steve Jobs died from complications of which form of cancer?": [
                 "Pancreatic",
                 "Bone",
@@ -593,7 +894,7 @@ module.exports = {
             ]
         },
         {
-            "Virtual reality company Oculus VR lost which of it's co-founders in a freak car accident in 2013?": [
+            "Virtual reality company \'Oculus VR\' lost which of it's co-founders in a freak car accident in 2013?": [
                 "Andrew Scott Reisse",
                 "Nate Mitchell",
                 "Jack McCauley",
