@@ -37,7 +37,7 @@ const APP_ID = undefined; // TODO replace with your app ID (OPTIONAL)
 const languageString = {
     'en': {
         'translation': {
-            'TOPICS': ['Topic one', 'Topic two', 'Topic three'],
+            'TOPICS': ['Friends TV Show ', 'Simple Questions ', 'General Knowledge '],
             'TOPICONE': questions['TOPIC_ONE'],
             'TOPICTWO': questions['TOPIC_TWO'],
             'TOPICTHREE': questions['TOPIC_THREE'],
@@ -55,7 +55,6 @@ const languageString = {
             'HELP_UNHANDLED': 'Say yes to continue, or no to end the game.',
             'START_UNHANDLED': 'Say start to start a new game.',
             'NEW_GAME_MESSAGE': 'Welcome to %s. ',
-            'AUDIO_NEWGAME_MESSAGE': '<audio src="https://ocoderjava8.000webhostapp.com/audio_clips/drumroll.mp3"/> Welcome to %s',
             'WELCOME_MESSAGE': 'I will ask you %s questions, try to get as many right as you can. ' +
             'Just say the number of the answer.',
             'ANSWER_CORRECT_MESSAGE': 'correct. ',
@@ -67,16 +66,21 @@ const languageString = {
             'GAME_OVER_MESSAGE': 'You got %s out of %s questions correct. Thank you for playing!',
             'SCORE_IS_MESSAGE': 'Your score is %s. ',
             'SET_PLAYER_MESSAGES': ['Got any Friends to play along? ', 'Got Friends with you to compete? ', 'Competing with someone? '],
-            'SET_PLAYER_MESSAGE': 'I can take five players. How many players?',
+            'SET_PLAYER_MESSAGE': 'I can take up to five players. How many players do you have?',
             'PLAYER_COUNT_IS_MESSAGE': ' Done, %s players on %s topic ',
             'SINGLE_PLAYER_GAME': 'Going solo on %s ',
             'BEGIN_GAME': [' Off to the game now. ', 'Let\'s begin. ', 'Let\'s get going. '],
-            'WIN_ANNOUNCE': 'And the winner is %s with a score of %s',
+            'WIN_ANNOUNCE': 'And the winner is %s with a score of %s ',
             'TIE_ANNOUNCE': 'Oh, no! it\'s a tie!! ',
             'SAY_PLAYER_NAME': ' Now player %s, Let me just call you %s. ',
             'PLAYER_COUNT_SELECTED': ' %s player game it is. ',
-			'TOPIC_SELECTION_MESSAGE': ' Say one for Topic one, two for Topic two, three for Topic three ',
-			'INVALID_ANSWER_SLOT': 'Sorry I didn\'t get you, Let me repeat the question',
+			'TOPIC_SELECTION_MESSAGE': ' Say one for FRIENDS TV Show, two for Simple Questions, three for General Knowledge ',
+			'INVALID_ANSWER_SLOT': 'Sorry I didn\'t get you, Let me repeat the question ',
+			//AUDIO CLIPS
+            'AUDIO_NEWGAME_MESSAGE': '<audio src="https://ocoderjava8.000webhostapp.com/audio_clips/drumroll.mp3"/> Welcome to %s ',
+            'AUDIO_RIGHT_ANSWER': '<audio src="https://ocoderjava8.000webhostapp.com/audio_clips/applause.mp3"/> Awesome! ',
+            'AUDIO_WRONG_ANSWER': '<audio src="https://ocoderjava8.000webhostapp.com/audio_clips/boo.mp3"/> Ouch! ',
+            'AUDIO_CONGRATS': '<audio src="https://ocoderjava8.000webhostapp.com/audio_clips/cheers.mp3"/> ',
         },
     }
 };
