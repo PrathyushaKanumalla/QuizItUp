@@ -389,7 +389,7 @@ module.exports = {
                 "Cabbage Patch Kids",
                 "Transformers",
                 "Care Bears",
-                "Rubik\u2019s Cube"
+                "Rubik's Cube"
             ]
         },
         {
@@ -452,8 +452,8 @@ module.exports = {
             "What is the French word for \"hat\"?": [
                 "Chapeau",
                 "Bonnet",
-                " \u00c9charpe",
-                " Casque"
+                "charpe",
+                "Casque"
             ]
         },
         {
