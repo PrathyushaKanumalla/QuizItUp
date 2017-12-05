@@ -1,0 +1,3155 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "AnswerTextType",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Friends",
+              "synonyms": [
+                "Friends TV show",
+                "Friends"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "General Knowledge",
+              "synonyms": [
+                "General"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Simple Questions",
+              "synonyms": [
+                "Simple"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "History",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Mureal",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Eustace",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Karen",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "White",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Francis",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Morgan",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Ben",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "John",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Finn",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Carl",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Silver",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Juno",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Stuart",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Wild Bill Hickok",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "William and Elizabeth",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Blade Runner",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Washington's Spies",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Tokyo",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Hittites",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Battle of Pollentia",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Esharhaddon",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Francis Tresham",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "British",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Breaking Bad",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Kazakhstan",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "USS Constitution",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "March 8th, 1935",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Henry V",
+              "synonyms": [
+                "Henry the fourth",
+                "Henry five",
+                "Henry"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "July 2nd, 1916",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Prince of Wallachia",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Thomas Jefferson",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "China",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Thrice",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Nepal",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Transatlantic Slave Trade",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Sheep",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Abraham Lincoln",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Sword",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Lancaster",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Pawnee Bill",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "George and Anne",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Alien",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Unnamed",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Kagoshima",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Elamites",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Battle of Constantinople",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Ashur-nasir-pal II",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Everard Digby",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Polish",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Italy",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Uzbekistan",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "USS Indianapolis",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "February 21st, 1926",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Thomas Warwick",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "June 30th, 1916",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Grand Prince of Novgorod",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "James K. Polk",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Walter White",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Once",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bulgaria",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "The Silk Road",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "The First Oaxaca Cave Sleeper",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "James Polk",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "The Sahara",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "John Quincy Adams",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Albert Putin",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Vanilla",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Physics",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Pug",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Razer",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Evans",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Rubik's Cube",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "C",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Whisky",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Columbia University",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Alfred Hitchcock",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Dollar",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Tequila",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Ferrari",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Casque",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Peperoncino",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Osen'",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Ezra",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Kappa",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Flamberge",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Fumihiko Maki",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Source",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Clas Ohlson",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Boo-Berry",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Sonic",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Peter Pan's Flight",
+              "synonyms": [
+                "Peter Pan"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Pepsin Syrup",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Victoria Line",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Munchkin",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bank of Charlotte",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Past, present, and future",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Stomach",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Palmer Luckey",
+              "synonyms": [
+                "Palmer"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Cardamom",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Politics",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Boxer",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Davies",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Care Bears",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "A",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Harvard University",
+              "synonyms": [
+                "Harvard"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Rowan Atkinson",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Konra",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Rum",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Alfa Romeo",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "charpe",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Cipolla",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Vesna",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Phineas",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Epsilon",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Ulfberht",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Michael Arad",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Cause",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Lindex",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Franken Berry",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Burger King",
+              "synonyms": [
+                "Burger"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Pirates of the Caribbean",
+              "synonyms": [
+                "Pirates"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Carolina Cola",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bakerloo Line",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Twister",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bank of Pennsylvania",
+              "synonyms": [
+                "Pennsylvania"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Life, liberty, and happiness",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Liver",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Jack McCauley",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Kitt Khan",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Taurus",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Adel Khan",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Capricorn",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "The Sands",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Martin Van Buren",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bang-Ding Ow",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Tudor",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Buffalo Bill",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "John and Mary",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Star Wars",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Culper Ring",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Nagasaki",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Assyrians",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Battle of Adrianople",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Shamshi-Adad III",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Guy Fawkes",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "German",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Switzerland",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Afghanistan",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "USS Pueblo",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "April 4th, 1925",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Richard Neville",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "July 1st, 1916",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Leader of the Ukrainian Cossacks",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "George Washington",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "France",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Twice",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "South Africa",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "The Columbian Exchange",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Dead Sea Scrolls",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Franklin Pierce",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "The Flamingo",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Andrew Jackson",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "The Polish President",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Ross Junior",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "what is up?",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "How are you?",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "How you doing?",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Who's there?",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Jennifer Anniston",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Monica Geller",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Lisa Kudrow",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Courtney Cox",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Thanks Giving",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Christmas",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "New Year' Eve",
+              "synonyms": [
+                "New Years"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "His Birthday",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Chandler has ten toes",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Ross gets divorced three times",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Phoebe gives birth to a girl chandler",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Rachel likes Weekend at Barney's",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Donald Trump",
+              "synonyms": [
+                "Trump"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Barack Obama",
+              "synonyms": [
+                "obama"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "George W. Bush",
+              "synonyms": [
+                "bush"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Narendra Modi",
+              "synonyms": [
+                "modi"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "New Delhi",
+              "synonyms": [
+                "delhi"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Singapore",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bangalore",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Beijing",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Ursula",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Rachel",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Alexa",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Cortana",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Janice",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Gunther",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Ross",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Joey",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Orthodontist",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Sailor",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Gynacologist",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Writer",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Lincoln High",
+              "synonyms": [
+                "Lincoln"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Roosevelt High",
+              "synonyms": [
+                "Roosevelt"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Long Island",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Chicago High",
+              "synonyms": [
+                "Chicago"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Big Fat Goalie",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Benchwormer mon",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Sac of potatoes",
+              "synonyms": [
+                "potatoes",
+                "of potatoes"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Monica the beast",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Alice",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Sara",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Jane",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Lisa",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Chandler",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Sandwich",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Burger",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Salad",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Milk",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Race car Bed",
+              "synonyms": [
+                "Race car"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Water Bed",
+              "synonyms": [
+                "Water"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bunk Bed",
+              "synonyms": [
+                "Bunk"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Princess Bed",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Shoes",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "A Necklace",
+              "synonyms": [
+                "Necklace"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Chocolate",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Lingerie",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "My Mom, the cat",
+              "synonyms": [
+                "My mom"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Double-Jointed Boy",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "My Mother's Ashes",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Terry's A Jerk",
+              "synonyms": [
+                "A Jerk"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Jack & Erica",
+              "synonyms": [
+                "jack and erica"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Eric & Julie",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Jason & Ella",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "John & Alice",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Phoebe",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Maurice",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Hugsy",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Chewy",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Mario",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Season 2",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Season 1",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Season 4",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Season 3",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "The Rembrandts",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "No Engine",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "The Too too guys",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Snoop Dog",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Chopsticks",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Pencils",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Straws",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Sticks from a tree",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Computer",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Reliable",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Experience",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Fashion",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "$22,500",
+              "synonyms": [
+                "22500"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "$50,000",
+              "synonyms": [
+                "50000"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "$100,000",
+              "synonyms": [
+                "100000"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "$65,600",
+              "synonyms": [
+                "65600",
+                "65000"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Xerox",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Belly Ring",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Diner",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Tube top",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "A Porsche",
+              "synonyms": [
+                "Porche"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "A Dollhouse",
+              "synonyms": [
+                "Dollhouse"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "A pot brownie",
+              "synonyms": [
+                "pot brownie"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "An old trophy",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "A Swing",
+              "synonyms": [
+                "Swing"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Cinnamon",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Philosophy",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Yorkshire Terrier",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Oculus",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Williams",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Transformers",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "O",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Gin",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Princeton University",
+              "synonyms": [
+                "Princeton"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Paul Newman",
+              "synonyms": [
+                "Newman"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Ruble",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Vodka",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Maserati",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bonnet",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Aglio",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Leto",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Gus",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Mu",
+              "synonyms": [
+                "Mew"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Falchion",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bjarke Ingels",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Answer",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "H & M",
+              "synonyms": [
+                "H and M"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Count Chocula",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Whataburger",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "The Haunted Mansion",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Pepsin Pop",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Circle Line",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Go Fish",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bank of Long Island",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "See no evil, hear no evil, speak no evil",
+              "synonyms": [
+                "See no evil"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bone",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Nate Mitchell",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Ben Khan",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Gemini",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Gold",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "York",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Billy the Kid",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Joseph and Catherine",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Jaws",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "New York Spy Ring",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Kawasaki",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Babylonians",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Battle of Thessalonica",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Shalmaneser V",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Robert Catesby",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "American",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "United Kingdom",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Turkmenistan",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "USS North Carolina",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Richard III",
+              "synonyms": [
+                "Richard third",
+                "Richard the third",
+                "Richard"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Saffron",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bulldog",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "HTC",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Jones",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Cabbage Patch Kids",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "I",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Yale University",
+              "synonyms": [
+                "Yale"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Charlie Chaplin",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Kip",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Fiat",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Chapeau",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Pomodoro",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Zima",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Harry",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Omega",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Scimitar",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "David Childs",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Truth",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "IKEA",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Fruit Brute",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "McDonalds",
+              "synonyms": [
+                "McD",
+                "McDonald's"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Twilight Zone Tower of Terror",
+              "synonyms": [
+                "Twilight"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Brad's Drink",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Metropolitan Line",
+              "synonyms": [
+                "Metropolitan"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Uno",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bank of Italy",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "I came, I saw, I conquered",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Pancreatic",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Andrew Scott Reisse",
+              "synonyms": [
+                "Andrew Scott"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Sal Khan",
+              "synonyms": [
+                "sal"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Libra",
+              "synonyms": [
+                "limra"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "General Secretary of the Communist Party of the USSR",
+              "synonyms": [
+                "Communist Party",
+                "USSR",
+                "General Secretary"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "James Madison",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "United States",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Argentina",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Triangle Trade",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "The Blackbeard Chest",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Andrew Johnson",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "The MGM Grand",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Harry S. Truman",
+              "synonyms": [
+                "Harry",
+                "Truman",
+                "Harry S Truman",
+                "Harry Truman"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Pope John Paul II",
+              "synonyms": [
+                "Pope",
+                "Pope John paul",
+                "Pope John paul two"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "largest railway station",
+              "synonyms": [
+                "largest"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "highest railway station",
+              "synonyms": [
+                "highest"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "longest railway station",
+              "synonyms": [
+                "longest"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "smallest railway station",
+              "synonyms": [
+                "smallest"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Insects",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Behavior of human beings",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "The formation of rocks",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "puzzles",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "energy",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "stupidity",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "All of these",
+              "synonyms": [
+                "all"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Chemistry",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Physiology",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Literature",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Peace",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Economics",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Nazi Party",
+              "synonyms": [
+                "Nazi"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Labour Party",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Ku-Klux-Klan",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Democratic Party",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Hitler party",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "The Crazies",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "China and Britain",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "China and France",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "China and Egypt",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "China and Greek",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "US and Mexico",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "China and India",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Google",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bing",
+              "synonyms": [
+                "Bing!"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Facebook",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Duck Duck Go",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Yahoo",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Twitter",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Chamber of secrets",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Deathly Hallows",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Prisoner of Azkaben",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Harry met sally",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Half blood prince",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Winter is here",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Jon snow",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Joffrey",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Litte Finger",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Sansa Stark",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Robert",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": [
+          "let's play some other time",
+          "cancel",
+          "bye",
+          "exit",
+          "alexa bye"
+        ]
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": [
+          "I can't understand",
+          "I can't understand the game",
+          "Help",
+          "I need help",
+          "I didn't understand game",
+          "Game Rules Please",
+          "Rules again",
+          "Rules",
+          "help me",
+          "i need some help"
+        ]
+      },
+      {
+        "name": "AMAZON.NoIntent",
+        "samples": [
+          "No",
+          "No i'm playing alone",
+          "no i'm alone",
+          "no i don't have any friends",
+          "no i am playing alone",
+          "no i'm the only one",
+          "no i am the only player",
+          "nope",
+          "no one's around",
+          "no it's just you and me",
+          "it is just you and me"
+        ]
+      },
+      {
+        "name": "AMAZON.RepeatIntent",
+        "samples": [
+          "Repeat",
+          "Repeat last question",
+          "Repeat question",
+          "Can you repeat the question",
+          "what"
+        ]
+      },
+      {
+        "name": "AMAZON.StartOverIntent",
+        "samples": [
+          "Restart Game",
+          "Play afresh",
+          "Start Game",
+          "Start the Game",
+          "Start a new game",
+          "Start afresh",
+          "Play Game from the start",
+          "Start"
+        ]
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": [
+          "No I do not want to play",
+          "Please stop the game",
+          "Stop the game",
+          "I do not want to play",
+          "jump out of the game",
+          "Stop",
+          "i quit",
+          "quit this"
+        ]
+      },
+      {
+        "name": "AMAZON.YesIntent",
+        "samples": [
+          "Yes",
+          "ya"
+        ]
+      },
+      {
+        "name": "AnswerIntent",
+        "samples": [
+          "the answer is {Answer}",
+          "my answer is {Answer}",
+          "is it {Answer}",
+          "{Answer} is my answer",
+          "{Answer}",
+          "answer is {Answer}",
+          "{Answer} {AnswerText}",
+          "{AnswerText}",
+          "it is {Answer}",
+          "i think it is {AnswerText}",
+          "i guess {Answer}",
+          "my guess is {AnswerText}",
+          "let me guess {Answer}",
+          "let's go with {Answer}",
+          "we are {Answer} people",
+          "We are {Answer} ",
+          "i'll try {AnswerText}",
+          "alexa {Answer}",
+          "{Answer} players",
+          "alexa {AnswerText}",
+          "let me check {Answer}"
+        ],
+        "slots": [
+          {
+            "name": "Answer",
+            "type": "AMAZON.NUMBER"
+          },
+          {
+            "name": "AnswerText",
+            "type": "AnswerTextType"
+          }
+        ]
+      },
+      {
+        "name": "DontKnowIntent",
+        "samples": [
+          "i don't know",
+          "don't know",
+          "i don't know that one",
+          "dunno",
+          "skip",
+          "skip this one",
+          "skip this question",
+          "i don't know that",
+          "who knows",
+          "i don't know this question",
+          "i dont know the anwer",
+          "pass",
+          "Sorry no idea",
+          "no clue",
+          "i have no clue",
+          "no idea",
+          "can i skip this one",
+          "lets skip this one",
+          "can i pass",
+          "what's the answer",
+          "what is the answer",
+          "i will pass this one",
+          "jump to next question"
+        ],
+        "slots": []
+      },
+      {
+        "name": "ScoreIntent",
+        "samples": [
+          "What's my score",
+          "can I know my score",
+          "My score please",
+          "how much did i score",
+          "tell me my score",
+          "get me my score"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "quiz it up"
+  }
+}
