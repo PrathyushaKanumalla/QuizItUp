@@ -18,7 +18,7 @@ module.exports = {
         "Snow",
         "Lollipop",
         "Whisper",
-        "Pixel"
+        "Pixel",
     ],
 	TOPIC_ONE: [
         {
@@ -274,7 +274,7 @@ module.exports = {
                 'highest railway station',
                 'longest railway station',
                 'smallest railway station',
-            ]
+            ],
         },
         {
             'Entomology is the science that studies': [
@@ -395,7 +395,7 @@ module.exports = {
                 "Google",
                 'Twitter',
                 'Yahoo',
-            ]
+            ],
         },
         {
             "Who was the first president of the United States?": [
@@ -404,7 +404,7 @@ module.exports = {
                 'Donald Trump',
                 'Barack Obama',
                 "James Polk"
-            ]
+            ],
         },
         {
             "Which of the below has an IMDB rating of 9.5?": [
@@ -413,7 +413,7 @@ module.exports = {
                 'Avatar Movie',
                 'Game of Thrones',
                 "Iron Man 2"
-            ]
+            ],
         },
         {
             "Which Character is famous for the nickname \'Heisenberg\'?": [
@@ -422,9 +422,8 @@ module.exports = {
                 'Ross',
                 'Donal Trump',
                 "Phoebe"
-            ]
-        }
-        
+            ],
+        },
     ],
     TOPIC_TWO: [
         {
@@ -433,7 +432,7 @@ module.exports = {
                 "Gold",
                 "Juno",
                 "Sword"
-            ]
+            ],
         },
         {
             "King Henry VIII was the second monarch of which European royal house?": [
@@ -441,7 +440,7 @@ module.exports = {
                 "York",
                 "Stuart",
                 "Lancaster"
-            ]
+            ],
         },
         {
             "What was William Frederick Cody better known as?": [
@@ -449,7 +448,7 @@ module.exports = {
                 "Billy the Kid",
                 "Wild Bill Hickok",
                 "Pawnee Bill"
-            ]
+            ],
         },
         {
             "In the year 1900, what were the most popular first names given to boy and girl babies born in the United States?": [
@@ -457,7 +456,7 @@ module.exports = {
                 "Joseph and Catherine",
                 "William and Elizabeth",
                 "George and Anne"
-            ]
+            ],
         },
         {
             "This is an American epic space opera media franchise": [
@@ -465,7 +464,7 @@ module.exports = {
                 "Jaws",
                 "Blade Runner",
                 "Alien"
-            ]
+            ],
         },
         {
             "What was the name of the spy ring that helped the United States win the Revolutionary War?": [
@@ -473,7 +472,7 @@ module.exports = {
                 "New York Spy Ring",
                 "Washington's Spies",
                 "Unnamed"
-            ]
+            ],
         },
         {
             "During WWII, in 1945, the United States dropped atomic bombs on the two Japanese cities of Hiroshima and what other city?": [
@@ -481,7 +480,7 @@ module.exports = {
                 "Kawasaki",
                 "Tokyo",
                 "Kagoshima"
-            ]
+            ],
         },
         {
             "Which of the following ancient Near Eastern peoples still exists as a modern ethnic group?": [
@@ -489,7 +488,7 @@ module.exports = {
                 "Babylonians",
                 "Hittites",
                 "Elamites"
-            ]
+            ],
         },
         {
             "Which of the following battles is often considered as marking the beginning of the fall of the Western Roman Empire?": [
@@ -497,7 +496,7 @@ module.exports = {
                 "Battle of Thessalonica",
                 "Battle of Pollentia",
                 "Battle of Constantinople"
-            ]
+            ],
         },
         {
             "Which of the following Assyrian kings did NOT rule during the Neo-Assyrian Empire?": [
@@ -505,7 +504,7 @@ module.exports = {
                 "Shalmaneser V",
                 "Esharhaddon",
                 "Ashur-nasir-pal II"
-            ]
+            ],
         },
         {
             "Which infamous European traitor was known as \"the last person to enter Parliament with honest intentions\"?": [
@@ -513,7 +512,7 @@ module.exports = {
                 "Robert Catesby",
                 "Francis Tresham",
                 "Everard Digby"
-            ]
+            ],
         },
         {
             "The creator of the Enigma Cypher and Machine was of what nationality?": [
@@ -521,7 +520,7 @@ module.exports = {
                 "American",
                 "British",
                 "Polish"
-            ]
+            ],
         },
         {
             "Which of these countries remained neutral during World War II?": [
@@ -529,7 +528,7 @@ module.exports = {
                 "United Kingdom",
                 "France",
                 "Italy"
-            ]
+            ],
         },
         {
             "Which of these countries was NOT a part of the Soviet Union?": [
@@ -537,7 +536,7 @@ module.exports = {
                 "Turkmenistan",
                 "Kazakhstan",
                 "Uzbekistan"
-            ]
+            ],
         },
         {
             "What is the name of the US Navy spy ship which was attacked and captured by North Korean forces in 1968?": [
@@ -545,7 +544,7 @@ module.exports = {
                 "USS North Carolina",
                 "USS Constitution",
                 "USS Indianapolis"
-            ]
+            ],
         },
         {
             "During the Wars of the Roses (1455 - 1487) which Englishman was dubbed \"the Kingmaker\"?": [
@@ -553,7 +552,7 @@ module.exports = {
                 "Richard III",
                 "Henry V",
                 "Thomas Warwick"
-            ]
+            ],
         },
         {
             "When did the Battle of the Somme begin?": [
@@ -561,7 +560,7 @@ module.exports = {
                 "August 1st, 1916",
                 "July 2nd, 1916",
                 "June 30th, 1916"
-            ]
+            ],
         },
         {
             "Bohdan Khmelnytsky was which of the following?": [
@@ -569,7 +568,7 @@ module.exports = {
                 "General Secretary of the Communist Party of the USSR",
                 "Prince of Wallachia",
                 "Grand Prince of Novgorod"
-            ]
+            ],
         },
         {
             "Who was the first president of the United States?": [
@@ -577,7 +576,7 @@ module.exports = {
                 "James Madison",
                 "Thomas Jefferson",
                 "James K. Polk"
-            ]
+            ],
         },
         {
             "Where and when was the first cardboard box made for industrial use?": [
@@ -585,7 +584,7 @@ module.exports = {
                 "United States",
                 "France",
                 "Germany"
-            ]
+            ],
         },
         {
             "How many times was Albert Einstein married in his lifetime?": [
@@ -593,7 +592,7 @@ module.exports = {
                 "Five",
                 "Thrice",
                 "Once"
-            ]
+            ],
         },
         {
             "The Second Boer War in 1899 was fought where?": [
@@ -601,7 +600,7 @@ module.exports = {
                 "Argentina",
                 "Nepal",
                 "Bulgaria"
-            ]
+            ],
         },
         {
             "What was the transfer of disease, crops, and people across the Atlantic shortly after the discovery of the Americas called?": [
@@ -609,7 +608,7 @@ module.exports = {
                 "Triangle Trade",
                 "Transatlantic Slave Trade",
                 "The Silk Road"
-            ]
+            ],
         },
         {
             "What was found in 1946 by two young shepards near a cave?": [
@@ -617,7 +616,7 @@ module.exports = {
                 "The Blackbeard Chest",
                 "Sheep",
                 "The First Oaxaca Cave Sleeper"
-            ]
+            ],
         },
         {
             "Who was the President of the United States during the signing of the Gadsden Purchase?": [
@@ -625,7 +624,7 @@ module.exports = {
                 "Andrew Johnson",
                 "Abraham Lincoln",
                 "James Polk"
-            ]
+            ],
         },
         {
             "Which Las Vegas casino was originally constructed and operated by mobster Bugsy Siegel?": [
@@ -633,7 +632,7 @@ module.exports = {
                 "The MGM Grand",
                 "The Sands",
                 "The Sahara"
-            ]
+            ],
         },
         {
             "The \"Trail of Tears\" was a result of which United States President's Indian Removal Policy?": [
@@ -641,7 +640,7 @@ module.exports = {
                 "Harry S. Truman",
                 "Martin Van Buren",
                 "John Quincy Adams"
-            ]
+            ],
         },
         {
             "Who was among those killed in the 2010 Smolensk, Russia plane crash tragedy?": [
@@ -649,8 +648,8 @@ module.exports = {
                 "Pope John Paul II",
                 "Bang-Ding Ow",
                 "Albert Putin"
-            ]
-        }
+            ],
+        },
     ],
 	TOPIC_THREE: [
         {
@@ -659,7 +658,7 @@ module.exports = {
                 "Cinnamon",
                 "Cardamom",
                 "Vanilla"
-            ]
+            ],
         },
         {
             "This field is sometimes known as 'The Dismal Science.'": [
@@ -667,7 +666,7 @@ module.exports = {
                 "Philosophy",
                 "Politics",
                 "Physics"
-            ]
+            ],
         },
         {
             "What type of dog is 'Handsome Dan', the mascot of Yale University?": [
@@ -675,7 +674,7 @@ module.exports = {
                 "Yorkshire Terrier",
                 "Boxer",
                 "Pug"
-            ]
+            ],
         },
         {
             "Which company did Valve cooperate with in the creation of the Vive?": [
@@ -683,7 +682,7 @@ module.exports = {
                 "Oculus",
                 "Google",
                 "Razer"
-            ]
+            ],
         },
         {
             "What is the most common surname Wales?": [
@@ -691,7 +690,7 @@ module.exports = {
                 "Williams",
                 "Davies",
                 "Evans"
-            ]
+            ],
         },
         {
             "Which best selling toy of 1983 caused hysteria, resulting in riots breaking out in stores?": [
@@ -699,7 +698,7 @@ module.exports = {
                 "Transformers",
                 "Care Bears",
                 "Rubik's Cube"
-            ]
+            ],
         },
         {
             "In the Morse code, which letter is indicated by 2 dots? ": [
@@ -707,7 +706,7 @@ module.exports = {
                 "O",
                 "A",
                 "C"
-            ]
+            ],
         },
         {
             "What alcoholic drink is made from molasses?": [
@@ -715,7 +714,7 @@ module.exports = {
                 "Gin",
                 "Vodka",
                 "Whisky"
-            ]
+            ],
         },
         {
             "Which of the following Ivy League universities has its official motto in Hebrew as well as in Latin?": [
@@ -723,7 +722,7 @@ module.exports = {
                 "Princeton University",
                 "Harvard University",
                 "Columbia University"
-            ]
+            ],
         },
         {
             "Which film star has his statue in Leicester Square?": [
@@ -731,7 +730,7 @@ module.exports = {
                 "Paul Newman",
                 "Rowan Atkinson ",
                 "Alfred Hitchcock"
-            ]
+            ],
         },
         {
             "What is the unit of currency in Laos?": [
@@ -739,7 +738,7 @@ module.exports = {
                 "Ruble",
                 "Konra",
                 "Dollar"
-            ]
+            ],
         },
         {
             "What alcoholic drink is mainly made from juniper berries?": [
@@ -747,7 +746,7 @@ module.exports = {
                 "Vodka",
                 "Rum",
                 "Tequila"
-            ]
+            ],
         },
         {
             "Which Italian automobile manufacturer gained majority control of U.S. automobile manufacturer Chrysler in 2011?": [
@@ -755,7 +754,7 @@ module.exports = {
                 "Maserati",
                 "Alfa Romeo",
                 "Ferrari"
-            ]
+            ],
         },
         {
             "What is the French word for \"hat\"?": [
@@ -763,7 +762,7 @@ module.exports = {
                 "Bonnet",
                 "charpe",
                 "Casque"
-            ]
+            ],
         },
         {
             "What is the Italian word for \"tomato\"?": [
@@ -771,7 +770,7 @@ module.exports = {
                 "Aglio",
                 "Cipolla",
                 "Peperoncino"
-            ]
+            ],
         },
         {
             "What is the romanized Russian word for \"winter\"?": [
@@ -779,7 +778,7 @@ module.exports = {
                 "Leto",
                 "Vesna",
                 "Osen'"
-            ]
+            ],
         },
         {
             "Disney's Haunted Mansion is home to a trio of Hitchhiking Ghosts. Which of these is NOT one of them?": [
@@ -787,7 +786,7 @@ module.exports = {
                 "Gus",
                 "Phineas",
                 "Ezra"
-            ]
+            ],
         },
         {
             "What is the last letter of the Greek alphabet?": [
@@ -795,7 +794,7 @@ module.exports = {
                 "Mu",
                 "Epsilon",
                 "Kappa"
-            ]
+            ],
         },
         {
             "Which one of these is not a typical European sword design?": [
@@ -803,7 +802,7 @@ module.exports = {
                 "Falchion",
                 "Ulfberht",
                 "Flamberge"
-            ]
+            ],
         },
         {
             "The new One World Trade Center in Manhattan, New York City was designed by which architect? ": [
@@ -811,7 +810,7 @@ module.exports = {
                 "Bjarke Ingels",
                 "Michael Arad",
                 "Fumihiko Maki"
-            ]
+            ],
         },
         {
             "According to Sherlock Holmes, \"If you eliminate the impossible, whatever remains, however improbable, must be the\"": [
@@ -819,7 +818,7 @@ module.exports = {
                 "Answer",
                 "Cause",
                 "Source"
-            ]
+            ],
         },
         {
             "Which one of these Swedish companies was founded in 1943?": [
@@ -827,7 +826,7 @@ module.exports = {
                 "H & M",
                 "Lindex",
                 "Clas Ohlson"
-            ]
+            ],
         },
         {
             "Which of the General Mills Corporation's monster cereals was the last to be released in the 1970's?": [
@@ -835,7 +834,7 @@ module.exports = {
                 "Count Chocula",
                 "Franken Berry",
                 "Boo-Berry"
-            ]
+            ],
         },
         {
             "Which restaurant's mascot is a clown?": [
@@ -843,7 +842,7 @@ module.exports = {
                 "Whataburger",
                 "Burger King",
                 "Sonic"
-            ]
+            ],
         },
         {
             "Which iconic Disneyland attraction was closed in 2017 to be remodeled as a \"Guardians of the Galaxy\" themed ride?": [
@@ -851,7 +850,7 @@ module.exports = {
                 "The Haunted Mansion",
                 "Pirates of the Caribbean",
                 "Peter Pan's Flight"
-            ]
+            ],
         },
         {
             "What was the soft drink Pepsi originally introduced as?": [
@@ -859,7 +858,7 @@ module.exports = {
                 "Pepsin Pop",
                 "Carolina Cola",
                 "Pepsin Syrup"
-            ]
+            ],
         },
         {
             "What was the first ever London Underground line to be built?": [
@@ -867,7 +866,7 @@ module.exports = {
                 "Circle Line",
                 "Bakerloo Line",
                 "Victoria Line"
-            ]
+            ],
         },
         {
             "Which of the following card games revolves around numbers and basic math?": [
@@ -875,7 +874,7 @@ module.exports = {
                 "Go Fish",
                 "Twister",
                 "Munchkin"
-            ]
+            ],
         },
         {
             "What was Bank of America originally established as?": [
@@ -883,7 +882,7 @@ module.exports = {
                 "Bank of Long Island",
                 "Bank of Pennsylvania",
                 "Bank of Charlotte"
-            ]
+            ],
         },
         {
             "Apple co-founder Steve Jobs died from complications of which form of cancer?": [
@@ -891,7 +890,7 @@ module.exports = {
                 "Bone",
                 "Liver",
                 "Stomach"
-            ]
+            ],
         },
         {
             "Virtual reality company \'Oculus VR\' lost which of it's co-founders in a freak car accident in 2013?": [
@@ -899,7 +898,7 @@ module.exports = {
                 "Nate Mitchell",
                 "Jack McCauley",
                 "Palmer Luckey"
-            ]
+            ],
         },
         {
             "Who founded the Khan Academy?": [
@@ -907,7 +906,7 @@ module.exports = {
                 "Ben Khan",
                 "Kitt Khan",
                 "Adel Khan"
-            ]
+            ],
         },
         {
             "Which sign of the zodiac comes between Virgo and Scorpio?": [
@@ -915,7 +914,7 @@ module.exports = {
                 "Gemini",
                 "Taurus",
                 "Capricorn"
-            ]
-        }
-    ]
+            ],
+        },
+    ],
 };
