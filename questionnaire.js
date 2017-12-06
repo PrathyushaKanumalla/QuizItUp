@@ -14,9 +14,9 @@ module.exports = {
         'Winter',
         'Viking',
         "Summer",
-        "Coconut",
+        "Coco",
         "Snow",
-        "Lollipop",
+        "Oreo",
         "Whisper",
         "Pixel",
     ],
@@ -57,7 +57,7 @@ module.exports = {
             ],
         },
         {
-            'In Friends series, Chandler hates "this" day.': [
+            'In Friends series, Chandler hates "this" day': [
                 'Thanks Giving',
                 'Christmas',
                 'New Year\' Eve',
@@ -162,14 +162,14 @@ module.exports = {
         },
         {
             'In Friends, What were the names of Monica and Chandler\'s twins?': [
-                'Jack & Erica',
-                'Eric & Julie',
-                'Jason & Ella',
-                'John & Alice',
+                'Jack and Erica',
+                'Eric and Julie',
+                'Jason and Ella',
+                'John and Alice',
             ],
         },
         {
-            'In Friends, "If we were in prison, you guys would be like my bitches." Who said it?': [
+            'In Friends, "If we were in prison, you guys would be like my bitches" Who said it?': [
                 'Phoebe',
                 'Rachel',
                 'Joey',
@@ -246,17 +246,17 @@ module.exports = {
 	TOPIC_FOUR: [
         {
             'Who is the president of United States': [
-                'Donald J. Trump',
+                'Donald Trump',
                 'Barack Obama',
                 'George W. Bush',
                 'Narendra Modi'
             ],
         },
         {
-            'Who is the CEO of Tesla?': [
+            'Who is the Founder of Oracle Corporation?': [
+                'Larry Ellison',
                 'Elon Musk',                
                 'Donald Trump',
-                'Larry Ellison',
                 'Tony Stark',
             ],
         },
@@ -277,7 +277,7 @@ module.exports = {
             ],
         },
         {
-            'Entomology is the science that studies': [
+            'Entomology is the science that studies what?': [
                 'Insects',
                 'Behavior of human beings',
                 'The formation of rocks',
@@ -309,7 +309,7 @@ module.exports = {
             ],
         },
         {
-            'First China War was fought between': [
+            'First China War was fought between ': [
                 'China and Britain',
                 'China and France',
                 'China and Egypt',
@@ -338,7 +338,7 @@ module.exports = {
             ],
         },
         {
-            'Politician with second most followers in twitter.': [
+            'Politician with second most followers in twitter': [
                 'Narendra Modi',
                 'George Washington',
                 'Barack Obama',
@@ -349,15 +349,15 @@ module.exports = {
             'Second book in \"Harry potter\" series?': [
                 'Chamber of secrets',
                 'Deathly Hallows',
-                'Prisoner of azkaban',
+                'Order of the Phoenix',
                 'Harry met sally',
                 'Half blood prince',
                 'Winter is here',
             ],
         },
            {
-            'Name of the Harry Potter series book in released in 1999, "Harry potter and "': [
-                'Prisoner of azkaban',
+            'Name of the Harry Potter series book in released in 1999, "Harry potter and what"?': [
+                'Order of the Phoenix',
                 'Deathly Hallows',
                 'Harry met sally',
                 'Half blood prince',
@@ -365,10 +365,10 @@ module.exports = {
             ],
         },
         {
-            'In Game of Throne, Who is the king in the North': [
+            'In Game of Throne, Who is the king in the North?': [
                 'Jon snow',
                 'Joffrey',
-                'Litte Finger',
+                'Little Finger',
                 'Sansa Stark',
                 'Robert',
             ],
@@ -390,7 +390,7 @@ module.exports = {
             ],
         },
         {
-            "Anonymous Search Engine!": [
+            "What is the Anonymous Search Engine?": [
                 "Duck Duck Go",
                 "Google",
                 'Twitter',
@@ -407,7 +407,7 @@ module.exports = {
             ],
         },
         {
-            "Which of the below has an IMDB rating of 9.5?": [
+            "Which of the below has an IMDB rating of 9 point 5?": [
                 "Breaking Bad TV Series",
                 "Avengers Movie",
                 'Avatar Movie',
@@ -661,7 +661,7 @@ module.exports = {
             ],
         },
         {
-            "This field is sometimes known as 'The Dismal Science.'": [
+            "This field is sometimes known as 'The Dismal Science'": [
                 "Economics",
                 "Philosophy",
                 "Politics",
@@ -749,7 +749,7 @@ module.exports = {
             ],
         },
         {
-            "Which Italian automobile manufacturer gained majority control of U.S. automobile manufacturer Chrysler in 2011?": [
+            "Which Italian automobile manufacturer, that gained majority control of US automobile manufacturer \'Chrysler\' in 2011?": [
                 "Fiat",
                 "Maserati",
                 "Alfa Romeo",
@@ -781,7 +781,7 @@ module.exports = {
             ],
         },
         {
-            "Disney's Haunted Mansion is home to a trio of Hitchhiking Ghosts. Which of these is NOT one of them?": [
+            "Disney's Haunted Mansion is home to a trio of Hitchhiking Ghosts, Which of these is NOT one of them?": [
                 "Harry",
                 "Gus",
                 "Phineas",
@@ -823,7 +823,7 @@ module.exports = {
         {
             "Which one of these Swedish companies was founded in 1943?": [
                 "IKEA",
-                "H & M",
+                "H and M",
                 "Lindex",
                 "Clas Ohlson"
             ],
