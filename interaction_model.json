@@ -1694,7 +1694,7 @@
           {
             "id": null,
             "name": {
-              "value": "Jack & Erica",
+              "value": "Jack and Erica",
               "synonyms": [
                 "jack and erica"
               ]
@@ -1703,21 +1703,21 @@
           {
             "id": null,
             "name": {
-              "value": "Eric & Julie",
+              "value": "Eric and Julie",
               "synonyms": []
             }
           },
           {
             "id": null,
             "name": {
-              "value": "Jason & Ella",
+              "value": "Jason and Ella",
               "synonyms": []
             }
           },
           {
             "id": null,
             "name": {
-              "value": "John & Alice",
+              "value": "John and Alice",
               "synonyms": []
             }
           },
@@ -2132,7 +2132,7 @@
           {
             "id": null,
             "name": {
-              "value": "H & M",
+              "value": "H  M",
               "synonyms": [
                 "H and M"
               ]
@@ -2924,7 +2924,7 @@
           {
             "id": null,
             "name": {
-              "value": "Prisoner of Azkaben",
+              "value": "Order of the Phoenix",
               "synonyms": []
             }
           },
@@ -2966,7 +2966,7 @@
           {
             "id": null,
             "name": {
-              "value": "Litte Finger",
+              "value": "Little Finger",
               "synonyms": []
             }
           },
@@ -3026,7 +3026,9 @@
           "nope",
           "no one's around",
           "no it's just you and me",
-          "it is just you and me"
+          "it is just you and me",
+          "maybe later",
+          "not at this time"
         ]
       },
       {
@@ -3036,7 +3038,8 @@
           "Repeat last question",
           "Repeat question",
           "Can you repeat the question",
-          "what"
+          "what",
+          "i'm not ready"
         ]
       },
       {
@@ -3062,14 +3065,18 @@
           "jump out of the game",
           "Stop",
           "i quit",
-          "quit this"
+          "quit this",
+          "i dont want to play"
         ]
       },
       {
         "name": "AMAZON.YesIntent",
         "samples": [
           "Yes",
-          "ya"
+          "ya",
+          "i want more",
+          "yes i have players with me",
+          "yes i have friends with me"
         ]
       },
       {
@@ -3095,7 +3102,8 @@
           "alexa {Answer}",
           "{Answer} players",
           "alexa {AnswerText}",
-          "let me check {Answer}"
+          "let me check {Answer}",
+          "i have {Answer} players"
         ],
         "slots": [
           {
@@ -3146,6 +3154,21 @@
           "how much did i score",
           "tell me my score",
           "get me my score"
+        ],
+        "slots": []
+      },
+      {
+        "name": "UNKNOWN",
+        "samples": [
+          "Hint",
+          "Any hints",
+          "do you have any hints",
+          "do you have any hints for me",
+          "i just said that",
+          "that's exactly what i said",
+          "can you ask me more questions",
+          "can i change the player count now",
+          "can i have a hint"
         ],
         "slots": []
       }
